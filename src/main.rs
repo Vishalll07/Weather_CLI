@@ -3,7 +3,7 @@ use reqwest::Error;
 use serde::Deserialize;
 use std::env;
 
-const API_KEY: &str = "2dff5c5557bb5f8bdac7467dd64ff81f";
+const API_KEY: &str = "your api key here";
 
 #[derive(Deserialize, Debug)]
 struct WeatherResponse {
